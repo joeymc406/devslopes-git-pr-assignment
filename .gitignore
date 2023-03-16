@@ -39,4 +39,17 @@ Temporary Items
 # Built Visual Studio Code Extensions
 *.vsix
 
-.env*
+#environment files
+.env
+.env.Local
+.env.production
+
+#global
+.DS_Store
+*.log
+*.sqlite3
+config/database.yml
+db/schema.rb
+tmp/**/*
+
+
